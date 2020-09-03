@@ -19,3 +19,5 @@ git clone https://github.com/JugurthaK/twitch-chat-bot.git && cd twitch-chat-bot
 
 ## To add a command:
 Go to `utils/commands.js` and add your own command following the template
+
+If you want to follow me : twitch.tv/jugurthak
