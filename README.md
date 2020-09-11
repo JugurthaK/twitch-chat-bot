@@ -33,7 +33,7 @@ module.exports = {
 ```
 
 ```bash
-npm install && node app.js
+npm install && npm start
 ```
 
 ## To add a command:
