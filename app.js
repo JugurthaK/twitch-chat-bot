@@ -16,7 +16,7 @@ const options = {
         username: config.username,
         password: config.password
     },
-    channels: ['jugurthak']
+    channels: [config.channel]
 }
 
 const client = new tmi.Client(options)

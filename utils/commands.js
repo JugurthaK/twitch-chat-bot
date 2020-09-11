@@ -22,7 +22,7 @@ module.exports = {
         },
         {
             description: "Affiche ce qu'on a développé la dernière fois",
-            message: "Détecte et supprime les URL dans le chat, mais avec certains sites whitelisté",
+            message: "On a ajouté le repo sur github. [https://github.com/JugurthaK/twitch-chat-bot]",
             tag: "!lastepisode"
         },
     ]

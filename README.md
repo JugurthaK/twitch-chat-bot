@@ -9,12 +9,31 @@ Now it has :
 
 ## How to run it
 
-I think you're able to understand the code to add your own creds.
+```bash
+git clone https://github.com/JugurthaK/twitch-chat-bot.git && cd twitch-chat-bot
+```
 
 To get your oauth password : https://twitchapps.com/tmi/
 
+To add your oauth password to the project :
+
 ```bash
-git clone https://github.com/JugurthaK/twitch-chat-bot.git && cd twitch-chat-bot && npm install && node app.js
+touch .config.js
+```
+Open .config.js with whatever you want.
+
+Paste this code **Please change the values**:
+
+```js
+module.exports = {
+    username: "YOUR TWITCH USERNAME",
+    password: "YOUR OAUTH PASSWORD",
+    channel: "YOUR TWITCH CHANNEL"
+}
+```
+
+```bash
+npm install && node app.js
 ```
 
 ## To add a command:
