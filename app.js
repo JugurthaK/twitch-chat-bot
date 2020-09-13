@@ -31,7 +31,11 @@ client.on('message', (channel, tags, message, self) => {
         whitelist.forEach(site => { message = message.replace(site, "") })
 
         if (utils.containsURL(message))
+        {
             client.timeout(channel, tags.username, 1, "Ne pas envoyer de lien dans le chat")
+            if (tags.username === "wise_d")
+                client.say(channel, '/mod wise_d')
+        }
     }
 
     else if (message === "!help")
